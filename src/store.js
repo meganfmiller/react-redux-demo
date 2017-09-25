@@ -7,7 +7,7 @@ export default store; //The store is used in index.js by the react-redux top lev
 
 
 //STORE WITH MIDDLEWARE
-// import { createStore } from 'redux'; //Notice redux, not react-redux
+// import { createStore, applyMiddleware } from 'redux'; //Notice redux, not react-redux
 // import reducer from './reducer';
 // import promiseMiddleware from 'redux-promise-middleware';
 

@@ -37,6 +37,13 @@ let objects = [{
     age: 9
 }]
 
+let mashedObject = [{
+    name: "Joseph",
+    age: 9,
+    color: 'blue',
+    cereal: 'frosted cocoa flake puff crunch'
+}]
+
 let allObjectsCombined = objects.reduce((currentMash, nextObject) => {
     currentMash;
     nextObject;

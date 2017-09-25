@@ -42,6 +42,9 @@ let initialState = {
 }
 //REDUCER
 export default function (state = initialState, action) {
+    // if(state === null || state === undefined) {
+    //    state = initialState
+    //  }
     switch (action.type) {
         case UPDATE_NAME:
             return Object.assign({}, state, { name: action.name })
